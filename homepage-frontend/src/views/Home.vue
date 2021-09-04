@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: 使用していないため後にファイルごと削除予定 -->
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
