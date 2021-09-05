@@ -1,6 +1,7 @@
 .msg {
   color: white;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-color: bisque; /* やっぱbisqueっしょ */
 }
 
 .example {

@@ -1,12 +1,25 @@
 <template>
   <div id="app">
+    <HeaderMenu />
     <div id="nav">
       <router-link to="/">TopPage</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+import HeaderMenu from "@/components/HeaderMenu/HeaderMenu.vue"; // @ is an alias to /src
+
+export default Vue.extend({
+  name: "AppVue",
+  components: {
+    HeaderMenu,
+  },
+});
+</script>
 
 <style>
 #app {

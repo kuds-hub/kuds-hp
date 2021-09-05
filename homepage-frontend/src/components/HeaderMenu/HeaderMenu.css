@@ -1,0 +1,20 @@
+#header-menu {
+  background-color: bisque;
+}
+
+#header-logo {
+  width: 2rem;
+}
+
+#header-company {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+#header-search{
+  display: inline-flex;
+}
