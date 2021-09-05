@@ -1,8 +1,6 @@
 <template>
   <div class="msg">
-    <h1>This is Top page</h1>
-    <button class="btn btn-primary example">bootstrapの使い方</button>
-    <b-button variant="primary">bootstrap-vueの使い方</b-button>
+    <h1>Welcome to KUDs!!</h1>
     <div>
       <b-carousel
         id="carousel-fade"
@@ -36,9 +34,6 @@
           :img-src="require('../../assets/topPagePhotos/shinya.jpg')">
         </b-carousel-slide> -->
       </b-carousel>
-    </div>
-    <div>
-      <h1>message</h1>
     </div>
   </div>
 </template>
