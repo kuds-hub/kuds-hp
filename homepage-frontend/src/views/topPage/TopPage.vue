@@ -3,6 +3,36 @@
     <h1>This is Top page</h1>
     <button class="btn btn-primary example">bootstrapの使い方</button>
     <b-button variant="primary">bootstrap-vueの使い方</b-button>
+    <div>
+      <b-carousel
+        id="carousel-fade"
+        style="text-shadow: 0px 0px 2px #000"
+        fade
+        indicators
+        img-width="1024"
+        img-height="480"
+        :interval="2000"
+      >
+        <b-carousel-slide
+          caption="First slide"
+          img-alt="failed"
+          :img-src="require('../../assets/topPagePhotos/test.jpg')"
+        ></b-carousel-slide>
+        <!-- TODO: webpackを利用し、vue-loaderの設定を変更することができれば、上記のような書き方をすせずとも相対パスから読み込むことができるらしい-->
+        <b-carousel-slide
+          caption="Second Slide"
+          img-src="https://picsum.photos/1024/480/?image=12"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          caption="Third Slide"
+          img-src="https://picsum.photos/1024/480/?image=22"
+        ></b-carousel-slide>
+        <b-carousel-slide
+         img-alt="This image is blank"
+         :img-src="require('../../assets/topPagePhotos/shinya.jpg')">
+        </b-carousel-slide>
+      </b-carousel>
+    </div>
   </div>
 </template>
 
