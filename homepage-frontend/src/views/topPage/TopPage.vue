@@ -8,30 +8,37 @@
         id="carousel-fade"
         style="text-shadow: 0px 0px 2px #000"
         fade
+        controls
         indicators
         img-width="1024"
         img-height="480"
-        :interval="2000"
+        :interval="5000"
       >
         <b-carousel-slide
           caption="First slide"
-          img-alt="failed"
+          img-alt="failed file leading."
           :img-src="require('../../assets/topPagePhotos/test.jpg')"
         ></b-carousel-slide>
         <!-- TODO: webpackを利用し、vue-loaderの設定を変更することができれば、上記のような書き方をすせずとも相対パスから読み込むことができるらしい-->
         <b-carousel-slide
           caption="Second Slide"
+          img-alt="failed file leading."
           img-src="https://picsum.photos/1024/480/?image=12"
         ></b-carousel-slide>
         <b-carousel-slide
           caption="Third Slide"
+          img-alt="failed file leading."
           img-src="https://picsum.photos/1024/480/?image=22"
         ></b-carousel-slide>
-        <b-carousel-slide
-         img-alt="This image is blank"
-         :img-src="require('../../assets/topPagePhotos/shinya.jpg')">
-        </b-carousel-slide>
+        <!-- <b-carousel-slide
+          caption="Fourth Slide"
+          img-alt="failed file leading."
+          :img-src="require('../../assets/topPagePhotos/shinya.jpg')">
+        </b-carousel-slide> -->
       </b-carousel>
+    </div>
+    <div>
+      <h1>message</h1>
     </div>
   </div>
 </template>
