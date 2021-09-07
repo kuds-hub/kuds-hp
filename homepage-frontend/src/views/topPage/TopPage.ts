@@ -6,6 +6,6 @@ export default Vue.extend({
   //   msg: String,
   // },
   created(): void {
-    console.log('TopPage log');
+    console.log('TopPage が表示されました。');
   },
 });

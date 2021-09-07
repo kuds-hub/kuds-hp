@@ -10,7 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(BootstrapVue as any);
 Vue.use(IconsPlugin as any);
 Vue.use(CarouselPlugin as any);
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 
 new Vue({
   router,

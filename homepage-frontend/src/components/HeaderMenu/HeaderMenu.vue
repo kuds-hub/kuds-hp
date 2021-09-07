@@ -1,6 +1,6 @@
 <template>
   <b-navbar id="header-menu" toggleable="lg" type="light" variant="">
-    <b-navbar-brand id="header-company" href="#">
+    <b-navbar-brand to='/' id="header-company" href="#">
       <img id="header-logo" alt="KUDs logo" src="../../assets/logo.png" />
       KUDs
     </b-navbar-brand>
@@ -9,7 +9,8 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">企業情報</b-nav-item>
+        <b-nav-item　to='/company'>企業情報</b-nav-item>
+
         <b-nav-item href="#" disabled>採用情報</b-nav-item>
       </b-navbar-nav>
 

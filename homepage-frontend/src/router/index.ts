@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import TopPage from '../views/topPage/TopPage.vue';
+import CompanyPage from '../views/companyPage/CompanyPage.vue';
 
 Vue.use(VueRouter);
 
@@ -9,6 +10,11 @@ const routes: RouteConfig[] = [
     path: '/',
     name: 'TopPage',
     component: TopPage,
+  },
+  {
+    path: '/company',
+    name: 'CompanyPage',
+    component: CompanyPage,
   },
   {
     path: '/about',
