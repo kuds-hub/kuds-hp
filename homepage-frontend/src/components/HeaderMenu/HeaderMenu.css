@@ -10,11 +10,15 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
 }
-
+/*
 .ml-auto {
   margin-left: auto;
 }
 
 #header-search{
   display: inline-flex;
+} */
+
+b-navbar-brand {
+  display: none;
 }
