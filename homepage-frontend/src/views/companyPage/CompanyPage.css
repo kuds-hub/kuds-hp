@@ -1,0 +1,36 @@
+/*固定された画像*/
+#parallax-back {
+  position: relative;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 228, 196, 0.9),
+      rgba(112, 82, 49, 0.9)
+    ),
+    url('../../assets/topPagePhotos/shinya.jpg');
+  height: 50rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#parallax-back h2 {
+  /*タイトル*/
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+
+/*スクロールするボックス*/
+#parallax-front {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  background: #343a40;
+  font-size: 3rem;
+  padding: 10rem;
+  text-align: center;
+}

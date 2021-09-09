@@ -2,16 +2,16 @@
   <div id="app">
     <HeaderMenu />
     <router-view />
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">TopPage</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HeaderMenu from '@/components/HeaderMenu/HeaderMenu.vue'; // @ is an alias to /src
+import HeaderMenu from '@/components/headerMenu/HeaderMenu.vue'; // @ is an alias to /src
 
 export default Vue.extend({
   name: 'AppVue',
@@ -23,7 +23,7 @@ export default Vue.extend({
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
