@@ -1,0 +1,21 @@
+#login {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: bisque;
+}
+
+input {
+  width: 50%;
+  margin: auto;
+}
+
+select {
+  width: 50%;
+  margin: auto;
+}
+
+.m-0 {
+  color: gray;
+}
