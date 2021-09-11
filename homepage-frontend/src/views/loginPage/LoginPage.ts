@@ -25,7 +25,7 @@ export default Vue.extend({
     };
   },
   methods: {
-    onSubmit(event: any) {
+    onSubmit(event: any): void {
       event.preventDefault();
       alert(
         'userid is ' +
@@ -36,7 +36,7 @@ export default Vue.extend({
           this.form.language +
           '. you checked ' +
           this.form.checked +
-          '.'
+          '.',
       );
     },
     onReset(event: any) {
