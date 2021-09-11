@@ -20,6 +20,7 @@
         <b-form-input
           id="input-2"
           v-model="form.password"
+          type="password"
           placeholder="Enter your Password."
           required
         ></b-form-input>
